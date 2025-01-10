@@ -1,6 +1,6 @@
 # YouTrack Branch Generator Extension
 
-A Chrome extension that simplifies Git branch creation by generating branch names automatically based on YouTrack issue details. The extension can optionally use GPT-4 API to translate and format branch names into English for better readability.
+A Chrome extension that simplifies Git branch creation by generating branch names automatically based on YouTrack issue details. The extension can optionally use GPT API to translate and format branch names into English for better readability.
 
 ---
 
