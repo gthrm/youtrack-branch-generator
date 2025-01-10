@@ -18,12 +18,12 @@ A Chrome extension that simplifies Git branch creation by generating branch name
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd <repository-folder>
    ```
 
-```
 2. Open Chrome and navigate to chrome://extensions/.
 3. Enable Developer mode in the top-right corner.
 4. Click Load unpacked and select the project folder.
@@ -84,4 +84,7 @@ Feel free to submit issues or pull requests for bug fixes or new features.
 ## License
 
 This project is licensed under the MIT License.
+
+```
+
 ```
