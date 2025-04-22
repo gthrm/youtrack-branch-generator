@@ -3,8 +3,11 @@
   "name": "YouTrack Git Branch Generator",
   "version": "1.0",
   "description": "Generates Git branch names for YouTrack tasks.",
-  "permissions": ["storage", "clipboardWrite", "activeTab", "scripting"],
-  "host_permissions": ["*://*.youtrack.cloud/issue/*"],
+  "permissions": ["storage", "clipboardWrite", "activeTab", "scripting", "webRequest", "webRequestAuthProvider"],
+  "host_permissions": [
+    "*://*.youtrack.cloud/issue/*", 
+    "<all_urls>"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -18,5 +21,8 @@
       "matches": ["*://*.youtrack.cloud/issue/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
 }
